@@ -16,6 +16,14 @@ body {
     padding: 0;
 }
 
+#count-cougar::before {
+    content: attr(cat1Name);
+}
+
+#count-cheetah::before {
+    content: attr(cat2Name);
+}
+
 img {
     width: auto;
     height: 90vh;
